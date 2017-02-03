@@ -1,8 +1,4 @@
-# web-template
-
-My version of my class' starting web template.
-
-### Instructions
+## Instructions
 
 **Upon completing a project from this template, please do the following:**
 
@@ -11,7 +7,7 @@ My version of my class' starting web template.
 3. Add text that describes your project. Include your name, web address, code/image citations, and any notes. 
 
 
-### About the template
+## About the template
 
 Forked from my professor's original template, web1-basic.
 
