@@ -19,11 +19,9 @@ hgroup, header, footer, address, nav {
 .container {
 	margin-top: 1em;
 	margin-right: auto;
-	margin-bottom: 1em;
+	margin-bottom: 6em;
 	margin-left: auto;
-	width: 90%;
-	max-width: 1200px;
+	max-width: 600px;
 	padding: 2em;
-	border: 1px solid #eee;
 }
 
