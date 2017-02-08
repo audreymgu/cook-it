@@ -1,43 +1,64 @@
-/* Headers */
-h1, h2, h3 {
-	font-family: "Avenir", "Helvetica Neue", Helvetica, sans-serif;
+body {
+	font-family: Avenir, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #333;
 }
+
+/* Headers */
 h1 {
+	font-size: 60px;
+	line-height: 1em;	
+}
+
+.site {
+	color: white;
 	font-size: 40px;
-	line-height: .95em;
+	padding: 0px;
+	line-height: 0.5em;
+	font-weight: 800;
 }
 
 h2 {
 	font-size: 14px;
-	color: blue;
+	color: gray;
+	font-weight: 800;
+}
+
+.subhead {
+	border-top: 2px solid #FF5C32;
+	padding-bottom: 4px;
+	letter-spacing: 0.02em;
+	margin-top: 60px; 
+}
+
+.ingredientlist {
+	border-top: 2px solid #FF5C32;
+	padding-bottom: 4px;
+	letter-spacing: 0.02em; 
 }
 
 h3 {
 	color: gray;
 }
 
-.subhead {
-	border-top: 2px solid blue;
-	padding-bottom: 10px;
-	letter-spacing: 0.02em;
-	margin-top: 60px;
-}
-
 /* List Items */
-ul {
+li {
 	list-style-type: circle;
 }
 ol li {
 	margin-top: 0.5em;
 }
 
-/* Body Copy */
-body {
-	font-family: "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 16px;
-	line-height: 1.5em;
-	color: #333;
-}
+/* Semantics */
+
 a {
 	color: gray;
+}
+
+/* Images */
+.hero {
+	z-index: -1;
+	position: relative;
+	
 }
