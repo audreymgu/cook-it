@@ -5,9 +5,8 @@ body {
 	color: #333;
 }
 
-/* Headers */
 h1 {
-	font-size: 60px;
+	font-size: 70px;
 	line-height: 1em;	
 }
 
@@ -25,40 +24,26 @@ h2 {
 	font-weight: 800;
 }
 
-.subhead {
+.subheader {
 	border-top: 2px solid #FF5C32;
 	padding-bottom: 4px;
 	letter-spacing: 0.02em;
 	margin-top: 60px; 
 }
 
-.ingredientlist {
-	border-top: 2px solid #FF5C32;
-	padding-bottom: 4px;
-	letter-spacing: 0.02em; 
-}
-
 h3 {
 	color: gray;
 }
 
-/* List Items */
 li {
 	list-style-type: circle;
 }
+
 ol li {
 	margin-top: 0.5em;
+	list-style-type: decimal;
 }
-
-/* Semantics */
 
 a {
 	color: gray;
-}
-
-/* Images */
-.hero {
-	z-index: -1;
-	position: relative;
-	
 }
