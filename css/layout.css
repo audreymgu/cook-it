@@ -16,12 +16,45 @@ hgroup, header, footer, address, nav {
 
 /*	Generally, you will only want one container element in
 	the document, wrapping around the main content area. */
+
 .container {
-	margin-top: 1em;
 	margin-right: auto;
 	margin-bottom: 6em;
 	margin-left: auto;
-	max-width: 600px;
-	padding: 2em;
+	max-width: 1000px;
 }
 
+.nav {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	padding-left: 2em;
+	background-color: #32FFBE;
+}
+
+.row {
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+}
+
+.block {
+	display: inline-block;
+	vertical-align: top;
+	max-width: 800px;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+.float {
+	max-width: 200px;
+}
+
+.header {
+	max-width: 800px;
+	margin-top: 6.0em;
+	margin-right: 2em;
+	padding-left: 2em;
+
+}
