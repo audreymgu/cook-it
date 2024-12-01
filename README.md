@@ -5,4 +5,4 @@ This is an initial concept for an online recipe sharing site, cookit. It was dev
 
 ## Credits and Citations
 
-Website developed from Dave Ramos’ base web-template. Images and all other code produced by George Gu.
+Website developed from Dave Ramos’ base web-template. Images and all other code produced by Audrey Gu.
